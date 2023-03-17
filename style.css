@@ -1,0 +1,81 @@
+
+body{
+    background-image: url("https://preview.redd.it/dx7rtr7pfwq41.png?auto=webp&s=4bce2977fe910c8570e1bf470a0fd763c5128fd0");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+
+
+.agent{
+    list-style: none;
+}
+
+.agent-select{
+    display: flex;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+
+}
+
+
+
+img{
+    width: 100px;
+    height: 100px;
+    background-color: #608AB2;
+    border: 2px solid rgba(129, 185, 239, 0.91);
+    margin-right: 5px;
+}
+
+img:hover{
+    background-color: #354c62;
+}
+
+
+.chris-face{
+    background-position: -90px;
+    background-image: url("https://cdn.discordapp.com/attachments/1065774366551453728/1086120876778459249/Screenshot_2022-04-23_220844.png");
+}
+
+.chris-face1{
+    background-position: -100px;
+    background-image: url("https://cdn.discordapp.com/attachments/1065774366551453728/1086119610409037894/Screenshot_2022-04-20_201813.png");
+}
+
+.face{
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 500px;
+    height: 400px;
+    width: 400px;
+}
+
+.label{
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'Happy Monkey', cursive;
+    margin-top: -10px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+
+.two-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.birthday{
+    display: none;
+}
